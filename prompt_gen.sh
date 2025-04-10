@@ -197,12 +197,32 @@ working on a customer issue and need detailed, accurate assistance.
 │ Observed Behavior: ${OBSERVED_BEHAVIOR}
 ╰──────────────────────────────────────────────────────╯
 
-Based on this information, help me:
-1. Identify potential root causes.
-2. Recommend next steps for investigation or resolution.
-3. Suggest AWS CLI or relevant service-specific actions I can use to validate/debug.
-4. Point out any misconfigurations or anti-patterns.
+As an AWS ${DOMAIN_FULL_NAME} expert, please provide a comprehensive analysis:
 
-If additional details are needed, let me know what to ask the customer.
+1. ROOT CAUSE ANALYSIS:
+   - List potential root causes in order of likelihood
+   - Explain the reasoning behind each potential cause
+
+2. INVESTIGATION STEPS:
+   - Provide a step-by-step troubleshooting plan
+   - Include specific AWS CLI commands or API calls to gather more information
+   - Highlight which logs or metrics should be analyzed
+
+3. RESOLUTION RECOMMENDATIONS:
+   - Detail specific actions to resolve each potential root cause
+   - Include relevant AWS CLI commands or API calls for implementation
+   - Provide any necessary configuration snippets
+
+4. BEST PRACTICES & PREVENTIVE MEASURES:
+   - Identify any misconfigurations or anti-patterns
+   - Suggest architectural improvements
+   - Recommend monitoring or alerting considerations
+
+If additional information is required, please specify:
+- Exactly what information is needed
+- Why it's important for troubleshooting
+- How to obtain it (commands/console steps)
+
+Please be specific and include actual commands, API calls, or configuration snippets where applicable.
 ╚═══════════════════════════════════════════════════════════════════════════════╝
 EOF
