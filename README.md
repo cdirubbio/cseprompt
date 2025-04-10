@@ -59,7 +59,8 @@ cseprompt --domain IAC \
     
 
     
-Available Options
+## Available Options
+```bash
 --in: Run in interactive mode
 --domain: Specify AWS domain (Required if not using --in)
 --service: AWS service name (Required)
@@ -70,6 +71,7 @@ Available Options
 --expected: Expected behavior
 --observed: Observed behavior
 --help, -h: Display help message
+```
 
 ## Requirements
 - Bash shell
